@@ -34,8 +34,8 @@ def transform_text(text):
 
     return " ".join(y)
 
-tfidf = pickle.load(open('vectorizer.pkl','rb'))
-model = pickle.load(open('model.pkl','rb'))
+tfidf = pickle.load(open('vectorizer(1).pkl','rb'))
+model = pickle.load(open('model(1).pkl','rb'))
 
 st.title("Smishing: SMS Phishing Detection using Machine Learning and NLP Techniques")
 
